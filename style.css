@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #131E25;
+   
+}
+
+header{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    letter-spacing: 0.4rem;
+}
+nav {
+ text-align: center;
+ margin: 0 auto 2.5rem  auto;
+ 
+}
+nav a{
+    background-color: #D2B48C;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0.6rem 2rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+
+}
+nav a:hover{
+    color: red;
+    opacity: .6;
+}
+
+#about p{
+    font-family: 'Rampart One', cursive;
+color: #d3c3ad;
+font-size: 3rem;
+text-align: center;
+padding: 1.5rem;
+margin: 8rem auto 18rem auto;
+}
+
+#project{
+    text-align: center;
+}
+
+#project h2{
+    color: white;
+    border-bottom:2px solid white;
+    font-size: 2rem;
+   
+    margin-bottom: 5rem;
+   width: 170px;
+   margin: auto;
+
+} 
+
+#project img{
+    width: 270px;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-right: 0.3rem;
+    
+  
+}
+
+#project img:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+#contact h2{
+    color: white;
+    border-bottom:2px solid white;
+    font-size: 2rem;
+   margin: 2rem auto 3rem auto;
+    
+   width: 170px;
+
+
+}
