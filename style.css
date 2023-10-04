@@ -144,23 +144,26 @@ form {
     font-size: 1.5rem;
     padding: 0.6rem;
     font-weight: bold;
+  
 }
 
 .btn:hover{
     color: orangered;
     cursor: pointer;
     height: 3.7rem;
-    
+  
 
 }
+
 
 .btn:hover::after{
-    font-family: font awe;
-    content: '\ea14';
-    color: white;
+    font-family: "Font Awesome 5 Free";
+    content: " \f1d8";
+    color: orangered;
+    margin-right: 1rem;
+   
     
 }
-
 .fixed-btn{
     position: fixed;
     bottom: 1rem;
@@ -171,14 +174,19 @@ form {
     font-weight: 900;
     border-radius: 10px;
     font-size: 1.1rem;
-
+  
 }
 
 .fixed-btn i{
     margin-left:0.3rem;
 }
+.fixed-btn a{
+    text-decoration: none;
+    color: white;
+}
 
 .fixed-btn:hover{
   background-color: orangered;
   cursor: pointer;
+
 }
